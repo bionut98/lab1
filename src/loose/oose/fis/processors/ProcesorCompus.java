@@ -19,6 +19,6 @@ public class ProcesorCompus implements Procesor {
             res += procesor.proceseaza(documente);
         }
 
-        return res;
+        return res+1;
     }
 }
